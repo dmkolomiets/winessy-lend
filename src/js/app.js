@@ -1,4 +1,5 @@
 //WOW
+
 new WOW().init();
 
 //Paralax
@@ -47,6 +48,7 @@ function changeClass(x) {
 $(window).scroll(function() {
   if($(this).scrollTop() > 10) {
     $('header').addClass('scroll-down');
+    console.log('Ok');
   } else {
     $('header').removeClass('scroll-down');
   }
